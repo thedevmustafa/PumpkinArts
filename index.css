@@ -1,0 +1,228 @@
+html{
+    scroll-behavior: smooth;
+}
+#navbar {
+    position: sticky;
+    z-index: 10;
+    top: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.navbar {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 0 !important;
+}
+
+.navbar-brand img {
+    height: 45px !important;
+    padding-left: 5%;
+    filter: invert(100%);
+    margin-bottom: 5%;
+}
+
+.navbar-brand span {
+    font-family: "Segoe print";
+    color: white;
+
+}
+
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: bold;
+    text-align: center;
+}
+
+.fa-bars {
+    color: white;
+}
+
+
+.navbar-toggler {
+    border: 0 !important;
+    box-shadow: none;
+    outline: none;
+}
+
+/* banner */
+
+#banner {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+    padding-top: 5%;
+    margin: 0;
+}
+
+.company-title {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.company-promo {
+    margin-bottom: 8%;
+}
+
+#banner .btn {
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    padding: 8px 25px;
+    border-radius: 20px;
+    border-color: white;
+    border-width: 1px;
+    margin-bottom: 10%;
+}
+
+.fa-circle-play {
+    margin-right: 10px;
+}
+
+.bottom-img {
+    width: 100%;
+}
+
+/* Services */
+
+#services {
+    padding: 5% 10% 5% 10%;
+}
+
+.service-img {
+    width: 150px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.services h3 {
+    padding: 5px;
+    margin-top: 25px;
+    font-weight: bold;
+    font-size: 18pt;
+}
+h1::after {
+    content: '';
+    background-color: purple;
+    height: 2px;
+    width: 50%;
+    margin: auto;
+    display: block;
+    transform: translateY(10px);
+    margin-bottom: 40px;
+}
+#services .btn {
+    margin-top: 2%;
+    border-radius: 20px;
+    padding: 8px 25px;
+    border-color: white;
+    border-width: 1px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+}
+
+/* About us */
+
+#about{
+    background-color: #e7eaee;
+    padding-top: 5%;
+}
+.about-promo{
+    font-size: 18pt;
+    font-weight: bold;
+    margin-top: 5%;
+}
+#about ul li{
+    margin-bottom: 10px;
+}
+#about img{
+    height: 400px;
+}
+
+/* homage */
+
+#homage{
+    padding-top: 5%;
+}
+#homage h1{
+    margin-bottom: 5%;
+}
+.homage{
+    border-left: 4px solid purple;
+    margin: auto;
+}
+.homage img{
+    height: 60px;
+    border-radius: 50%;
+    margin: 0 10px;
+    margin-bottom: 30px;
+}
+.user-info{
+    display: inline-block;
+    font-size: 12pt;
+}
+
+/* Contact */
+
+#contact{
+    padding-top: 5%;
+    margin-top: 5%;
+}
+#contact p{
+    font-size: 26pt;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+.icons img{
+    margin: 15px;
+    width: 50px;
+    transition: 0.5s;
+}
+.icons img:hover{
+    filter:invert(100%);
+    transform: translateY(-10px);
+}
+
+/* Footer */
+
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    color: white;
+}
+#footer img{
+    width: 100%;
+}
+.footer-box{
+    padding: 20px;
+    margin: auto;
+}
+#footer .footer-box .contactus{
+    font-size: 18pt;
+}
+#footer .footer-box .fa-solid{
+    margin-right: 10px;
+}
+#footer .footer-box .form-control{
+    box-shadow: none;
+    border: none;
+    max-width: 250px;
+    margin-top: 25px;
+    border-radius: 0;
+}
+#footer .footer-box .btn-primary{
+    background-image: linear-gradient(to right, #a517ba, #5f1782);
+    margin-top: 30px;
+    border-color: white;
+    border-radius: 20px;
+    border-width: 1px;
+}
+hr{
+    background-color: white;
+}
+.copyright{
+    text-align: center;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
